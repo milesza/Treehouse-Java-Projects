@@ -1,0 +1,14 @@
+
+public class JavaReview {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String hello = "Hello world";
+
+		System.out.println(hello);
+		
+		
+	}
+
+}

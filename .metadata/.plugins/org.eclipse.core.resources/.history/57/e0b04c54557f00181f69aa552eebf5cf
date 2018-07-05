@@ -1,0 +1,23 @@
+import java.text.DecimalFormat;
+
+public class JavaReview {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String hello = "Hello world";
+
+		System.out.println(hello);
+		
+		//Program to calculate the area of the circle
+		double r = 1.0;
+		Double area = 0.0;
+		DecimalFormat outputPattern = new DecimalFormat("00.00");
+		String output = area.toString();
+		
+		area = Math.PI * r * r;
+		System.out.println(outputPattern.format(output));
+		
+	}
+
+}
